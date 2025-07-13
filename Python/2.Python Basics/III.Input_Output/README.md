@@ -135,13 +135,14 @@ print("I ignored what you said.")
 
 ## 4. ✅ Tips for Mastering Python Input/Output
 
-Tip No.	Tip
-> 1️⃣	Remember: input() always returns a string
-> 2️⃣	Use int(), float(), etc. to convert input
->3️⃣	Use split() and map() for multiple inputs
->4️⃣	print() is very flexible: use sep, end, and f-strings
->5️⃣	Use .strip() to remove unwanted spaces
->6️⃣	Always test user input with edge cases (empty input, non-number, etc.)
->7️⃣	When using multiple input()s, prompt clearly for each
+| Tip No. | Tip                                                                    |
+| ------- | ---------------------------------------------------------------------- |
+| 1️⃣     | Remember: `input()` **always** returns a string                        |
+| 2️⃣     | Use `int()`, `float()`, etc. to convert input                          |
+| 3️⃣     | Use `split()` and `map()` for multiple inputs                          |
+| 4️⃣     | `print()` is very flexible: use `sep`, `end`, and `f-strings`          |
+| 5️⃣     | Use `.strip()` to remove unwanted spaces                               |
+| 6️⃣     | Always test user input with edge cases (empty input, non-number, etc.) |
+| 7️⃣     | When using multiple `input()`s, prompt clearly for each                |
 
 
