@@ -50,16 +50,14 @@ Used to assign values to variables.
 | `**=`    | Power and assign        | `x **= 2`          |
 
 🔹 4. Logical Operators
-Used to combine multiple conditions (returns True or False).
+Used to combine multiple conditions. Returns True or False
 
-| Operator | Meaning     | Example (`a = 5`, `b = 3`) | Result |     |     |
-| -------- | ----------- | -------------------------- | ------ | --- | --- |
-| `&`      | Bitwise AND | `a & b`                    | `1`    |     |     |
-| \`       | \`          | Bitwise OR                 | \`a    | b\` | `7` |
-| `^`      | Bitwise XOR | `a ^ b`                    | `6`    |     |     |
-| `~`      | Bitwise NOT | `~a`                       | `-6`   |     |     |
-| `<<`     | Left shift  | `a << 1`                   | `10`   |     |     |
-| `>>`     | Right shift | `a >> 1`                   | `2`    |     |     |
+| Operator | Meaning     | Example (`a = 5`, `b = 3`) | Result |
+| -------- | ----------- | -------------------------- | ------ |
+| `and`    | Logical AND | `a > 2 and b < 5`          | `True` |
+| `or`     | Logical OR  | `a < 2 or b < 5`           | `True` |
+| `not`    | Logical NOT | `not (a < b)`              | `True` |
+
 
 🔹 6. Identity Operators
 Check whether two variables refer to the same memory location.
