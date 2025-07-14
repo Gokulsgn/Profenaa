@@ -97,6 +97,19 @@ a = 10
 b = 5
 print(a > 5 and b < 10)  # True
 
+a = 5
+b = 3
+
+# Logical AND
+print(a > 2 and b < 5)  # True
+
+# Logical OR
+print(a < 2 or b < 5)   # True
+
+# Logical NOT
+print(not (a < b))      # True
+
+
 # Bitwise
 print(5 & 3)        # 1
 
