@@ -1,0 +1,27 @@
+# **List Comprehension**
+
+List Comprehension is a concise way to create lists in Python using a single line of code.
+
+It replaces traditional loops (like for or while) used for building lists.
+
+It follows the format:
+
+```
+[expression for item in iterable if condition]
+
+```
+This improves readability, reduces code length, and often boosts performance.
+
+2. Examples of List Comprehension
+
+✅ Basic Examples
+
+```
+# Create a list of numbers from 0 to 4
+nums = [x for x in range(5)]  # [0, 1, 2, 3, 4]
+
+# Square of each number
+squares = [x*x for x in range(5)]  # [0, 1, 4, 9, 16]
+
+```
+✅ With Condition
