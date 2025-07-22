@@ -1,0 +1,38 @@
+Write a Python program that functions as a simple calculator using a while loop and menu-driven interface.
+
+Your program should:
+
+1.Display a menu with five options:
+
+Add
+
+Subtract
+
+Multiply
+
+Divide
+
+Exit
+
+2.Ask the user to enter a choice (1–5).
+
+3.If the choice is from 1 to 4:
+
+Prompt the user to enter two numbers.
+
+Perform the selected operation using appropriate arithmetic operators.
+
+Display the result in a formatted output like:
+Result: 10 + 5 = 15
+
+4.If the user chooses option 5:
+
+Display a thank-you message and exit the loop.
+
+5.Use a normal while loop (not while True) to keep showing the menu until the user chooses to exit.
+
+6.If the user enters an invalid option, display:
+"Invalid choice. Please enter a number from 1 to 5."
+
+✳️ Note: For division, check that the second number is not zero. If it is, show:
+"Error: Cannot divide by zero."
